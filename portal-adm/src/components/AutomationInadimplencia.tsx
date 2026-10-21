@@ -13,7 +13,7 @@ function AutomationInadimplencia (){
               >
                 Executar
               </button>
-            </div>
+        </div>
     )
 }
 

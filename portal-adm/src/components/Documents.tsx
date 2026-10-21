@@ -25,3 +25,5 @@ function Documents (){
         </section>
     )
 }
+
+export default Documents
