@@ -1,12 +1,10 @@
-import { Header } from './components/Header'
-import { Dashboard } from './components/Dashboard'
-import { Documents } from './components/Documents'
-import { AutomationContract } from './components/AutomationContract'
-import { AutomationInadimplencia } from './components/AutomationInadimplencia'
+import Header from './components/Header'
+import Dashboard from './components/Dashboard'
+import Documents from './components/Documents'
+import AutomationContract from './components/AutomationContract'
+import AutomationInadimplencia from './components/AutomationInadimplencia'
 
 function App() {
-    const linkJuridico = import.meta.env.VITE_LINK_JURIDICO || "#"
-    const linkFinanceiro = import.meta.env.VITE_LINK_FINANCEIRO || "#"
   return (
     <main className="min-h-screen bg-slate-50 p-6 text-slate-800">
       
