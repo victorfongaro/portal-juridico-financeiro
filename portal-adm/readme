@@ -1,0 +1,26 @@
+5. Execute o deploy
+Agora, basta rodar o comando de deploy no terminal:
+
+bash
+npm run deploy
+Esse comando irá:
+
+Executar o script predeploy (que faz o build de produção).
+
+Criar (ou atualizar) uma branch chamada gh-pages no seu repositório.
+
+Enviar o conteúdo da pasta de build (build ou dist) para essa branch.
+
+6. Ative o GitHub Pages no repositório
+No GitHub, vá até a página do seu repositório.
+
+Clique na aba "Settings" (Configurações).
+
+No menu lateral esquerdo, clique em "Pages".
+
+Na seção "Build and deployment", em "Source", selecione a opção "Deploy from a branch".
+
+No campo "Branch", selecione a branch gh-pages e a pasta / (root). Clique em "Save".
+
+Após alguns minutos, o GitHub exibirá o link de acesso no topo da página de configurações do Pages. Sua aplicação estará disponível em:
+https://SEU_USUARIO.github.io/NOME_DO_REPO

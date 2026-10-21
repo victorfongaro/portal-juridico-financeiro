@@ -9,6 +9,13 @@
     "lint": "oxlint",
     "preview": "vite preview"
   },
+  "homepage": "https://victorfongaro.github.io/portal-juridico-financeiro",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build"
+  },
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
