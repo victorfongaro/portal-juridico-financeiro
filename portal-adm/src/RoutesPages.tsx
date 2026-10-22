@@ -6,7 +6,7 @@ function RoutesPages (){
     return (
         <BrowserRouter>
         <Routes>
-            <Route path="/portal-juridico-financeiro" element={<DashboardPage />} />
+            <Route path="/portal-juridico-financeiro/" element={<DashboardPage />} />
 
             <Route path="/portal-juridico-financeiro/gerar-contrato" element={<GenerateContract />} />
         </Routes>
