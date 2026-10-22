@@ -1,4 +1,3 @@
-
 function Header (){
     return (
         <header className="mb-6 flex flex-col justify-between gap-4 border-b border-slate-200 pb-4 md:flex-row md:items-center">

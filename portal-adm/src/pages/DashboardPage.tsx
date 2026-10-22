@@ -1,8 +1,8 @@
-import Header from '../components/Header'
-import Dashboard from '../components/Dashboard'
-import Documents from '../components/Documents'
-import AutomationContract from '../components/AutomationContract'
-import AutomationInadimplencia from '../components/AutomationInadimplencia'
+import Header from '../features/componentsDashboard/Header'
+import Dashboard from '../features/componentsDashboard/Dashboard'
+import Documents from '../features/componentsDashboard/Documents'
+import AutomationContract from '../features/componentsDashboard/AutomationContract'
+import AutomationInadimplencia from '../features/componentsDashboard/AutomationInadimplencia'
 
 function DashboardPage() {
   return (

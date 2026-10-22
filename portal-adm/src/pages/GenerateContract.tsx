@@ -1,7 +1,9 @@
 function GenerateContract (){
     return (
     <main>
-        <h1>Página que o bagulho vai ficar louco</h1>
+        <header>
+            <h1 className="text-purple-700 bg-white">Formulário do Contrato</h1>
+        </header>
     </main>
     
     )
