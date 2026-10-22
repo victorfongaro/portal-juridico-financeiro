@@ -4,7 +4,7 @@ import Documents from '../components/Documents'
 import AutomationContract from '../components/AutomationContract'
 import AutomationInadimplencia from '../components/AutomationInadimplencia'
 
-function App() {
+function DashboardPage() {
   return (
     <main className="min-h-screen bg-slate-50 p-6 text-slate-800">
       
@@ -41,4 +41,4 @@ function App() {
   )
 }
 
-export default App
+export default DashboardPage
