@@ -1,9 +1,10 @@
+import Header from '../features/components/Header'
+
 function GenerateContract (){
     return (
     <main>
-        <header>
-            <h1 className="text-purple-700 bg-white">Formulário do Contrato</h1>
-        </header>
+        <Header/>
+        
     </main>
     
     )
