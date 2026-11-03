@@ -1,7 +1,7 @@
 function Documents (){
     return (
-        <section className="flex-1 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h2 className="mb-4 text-lg font-bold text-slate-800">
+        <section className="flex-1 rounded-2xl border border-purple-200 bg-white p-5 shadow-sm">
+          <h2 className="mb-4 text-lg font-bold text-purple-900">
             📁 Documentações e Acessos
           </h2>
 
@@ -9,9 +9,9 @@ function Documents (){
             
 
             {/* Item de Documento 3 */}
-            <div className="flex items-center justify-between rounded-xl bg-slate-50 p-3 hover:bg-slate-100">
+            <div className="flex items-center justify-between rounded-xl bg-purple-50 p-3 hover:bg-purple-100">
               <div>
-                <p className="font-semibold text-slate-700">Planilha de Fluxo de Caixa</p>
+                <p className="font-semibold text-purple-900">Planilha de Fluxo de Caixa</p>
                 <span className="text-xs text-purple-600">Financeiro • Google Sheets</span>
               </div>
               <a

@@ -1,9 +1,9 @@
 function AutomationInadimplencia (){
     return (
-        <div className="flex flex-col justify-between gap-3 rounded-xl border border-slate-100 bg-slate-50 p-4 sm:flex-row sm:items-center">
+        <div className="flex flex-col justify-between gap-3 rounded-xl border border-purple-200 bg-purple-50 p-4 sm:flex-row sm:items-center">
               <div>
-                <p className="font-semibold text-slate-700">Verificar Inadimplência</p>
-                <p className="text-xs text-slate-500">
+                <p className="font-semibold text-purple-900">Verificar Inadimplência</p>
+                <p className="text-xs text-purple-600">
                   Checa boletos vencidos na planilha e avisa a diretoria
                 </p>
               </div>

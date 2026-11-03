@@ -6,7 +6,7 @@ import AutomationInadimplencia from '../features/componentsDashboard/AutomationI
 
 function DashboardPage() {
   return (
-    <main className="min-h-screen bg-slate-50 p-6 text-slate-800">
+    <main className="min-h-screen bg-purple-50 p-6 text-purple-950">
       
       {/* 1. CABEÇALHO DO PAINEL */}
       <Header/>
@@ -21,8 +21,8 @@ function DashboardPage() {
         <Documents/>
 
         {/* COLUNA 2: GATILHOS DE AUTOMAÇÃO */}
-        <section className="flex-1 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h2 className="mb-4 text-lg font-bold text-slate-800">
+        <section className="flex-1 rounded-2xl border border-purple-200 bg-white p-5 shadow-sm">
+          <h2 className="mb-4 text-lg font-bold text-purple-900">
             ⚡ Automações da Diretoria
           </h2>
 
